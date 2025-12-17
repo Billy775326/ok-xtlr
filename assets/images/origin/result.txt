@@ -1,0 +1,35 @@
+{
+    "images": [
+        { "width": 1920, "height": 1080, "id": 0, "file_name": "images/login_click_start.png" },
+        { "width": 1920, "height": 1080, "id": 1, "file_name": "images/login_notice_feature.png" },
+        { "width": 1920, "height": 1080, "id": 2, "file_name": "images/checkin_getprop.png" },
+        { "width": 1920, "height": 1080, "id": 3, "file_name": "images/checkin.png" },
+        { "width": 1920, "height": 1080, "id": 4, "file_name": "images/giftbag.png" }
+    ],
+    "categories": [
+        { "id": 0, "name": "login_click_start" },
+        { "id": 1, "name": "login_notice_feature" },
+        { "id": 2, "name": "login_closenotice_btn" },
+        { "id": 3, "name": "getprop" },
+        { "id": 4, "name": "checkin_closenotice_btn" },
+        { "id": 5, "name": "gb_closenotice_btn" }
+    ],
+    "annotations": [
+        { "id": 0, "image_id": 0, "category_id": 0, "bbox": [800,
+                850,
+                300,
+                50], "ignore": 0, "iscrowd": 0 },
+        { "id": 1, "image_id": 1, "category_id": 1, "bbox": [210, 120, 130, 55], "ignore": 0, "iscrowd": 0 },
+        { "id": 2, "image_id": 1, "category_id": 2, "bbox": [1650, 125, 48, 48], "ignore": 0, "iscrowd": 0 },
+        { "id": 3, "image_id": 2, "category_id": 3, "bbox": [720, 275, 500, 95], "ignore": 0, "iscrowd": 0 },
+        { "id": 4, "image_id": 3, "category_id": 4, "bbox": [1645, 140, 48, 48], "ignore": 0, "iscrowd": 0 },
+        { "id": 5, "image_id": 4, "category_id": 5, "bbox": [1628, 210, 43, 43], "ignore": 0, "iscrowd": 0 }
+    ],
+    "info": {
+        "year": 2025,
+        "version": "1.0",
+        "description": "Standardized to 1080p",
+        "contributor": "Label Studio",
+        "date_created": "2025-12-17"
+    }
+}

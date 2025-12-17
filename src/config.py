@@ -64,7 +64,7 @@ config = {
         }
     },
     'windows': {  # Windows游戏请填写此设置
-        'exe': ['StarRail.exe'],
+        'exe': ['xtlr.exe'],
         # 'hwnd_class': 'UnrealWindow', #增加重名检查准确度
         'interaction': 'Genshin', # Genshin:某些操作可以后台, 部分游戏支持 PostMessage:可后台点击, 极少游戏支持 ForegroundPostMessage:前台使用PostMessage Pynput/PyDirect:仅支持前台使用
         'capture_method': ['WGC', 'BitBlt_RenderFull'],  # Windows版本支持的话, 优先使用WGC, 否则使用BitBlt_Full. 支持的capture有 BitBlt, WGC, BitBlt_RenderFull, DXGI
@@ -77,15 +77,15 @@ config = {
     },
     'start_timeout': 120,  # default 60
     'window_size': { #ok-script窗口大小
-        'width': 1200,
-        'height': 800,
+        'width': 800,
+        'height': 600,
         'min_width': 600,
         'min_height': 450,
     },
     'supported_resolution': {
         'ratio': '16:9', #支持的游戏分辨率
         'min_size': (1280, 720), #支持的最低游戏分辨率
-        'resize_to': [(2560, 1440), (1920, 1080), (1600, 900), (1280, 720)], #可选, 如果非16:9自动缩放为 resize_to
+        'resize_to': [(1280, 720),(2560, 1440), (1920, 1080), (1600, 900) ], #可选, 如果非16:9自动缩放为 resize_to
     },
     'analytics': {
         'report_url': 'http://report.ok-script.cn:8080/report', #上报日活, 可选
@@ -100,7 +100,7 @@ config = {
             }
         },
     'screenshots_folder': "screenshots", #截图存放目录, 每次重新启动会清空目录
-    'gui_title': 'ok-script-boilerplate',  #窗口名
+    'gui_title': 'ok-xtlr',  #窗口名
     'template_matching': { # 可选, 如使用OpenCV的模板匹配
         'coco_feature_json': os.path.join('assets', 'result.json'), #coco格式标记, 需要png图片, 在debug模式运行后, 会对进行切图仅保留被标记部分以减少图片大小
         'default_horizontal_variance': 0.002, #默认x偏移, 查找不传box的时候, 会根据coco坐标, match偏移box内的
@@ -111,6 +111,7 @@ config = {
     'my_app': ['src.globals', 'Globals'], #可选. 全局单例对象, 可以存放加载的模型, 使用og.my_app调用
     'onetime_tasks': [  # 用户点击触发的任务
         ["src.tasks.MyOneTimeTask", "MyOneTimeTask"],
+        ["src.tasks.DailyTask", "DailyTask"],
         ["src.tasks.MyOneTimeWithAGroup", "MyOneTimeWithAGroup"],
         ["src.tasks.MyOneTimeWithAGroup2", "MyOneTimeWithAGroup2"],
         ["src.tasks.MyOneTimeWithBGroup", "MyOneTimeWithBGroup"],

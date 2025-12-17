@@ -1,0 +1,32 @@
+{
+    "images": [
+        { "width": 1920, "height": 1080, "id": 0, "file_name": "images/login_click_start.png", "txt": "登录页" },
+        { "width": 1920, "height": 1080, "id": 1, "file_name": "images/login_notice_feature.png", "txt": "登录页公告" },
+        { "width": 1920, "height": 1080, "id": 2, "file_name": "images/checkin_getprop.png", "txt": "获得道具 点击空白处继续" },
+        { "width": 1920, "height": 1080, "id": 3, "file_name": "images/checkin.png", "txt": "签到奖励弹窗" },
+        { "width": 1920, "height": 1080, "id": 4, "file_name": "images/giftbag.png", "txt": "礼包弹窗" }
+    ],
+    "categories": [
+        { "id": 0, "name": "login_click_start", "txt": "点击任意区域进入游戏" },
+        { "id": 1, "name": "login_notice_feature", "txt": "登录页公告" },
+        { "id": 2, "name": "login_closenotice_btn", "txt": "登录页公告关闭按钮" },
+        { "id": 3, "name": "getprop", "txt": "获得道具" },
+        { "id": 4, "name": "checkin_closenotice_btn", "txt": "签到奖励页面关闭按钮" },
+        { "id": 5, "name": "gb_closenotice_btn", "txt": "礼包关闭按钮" }
+    ],
+    "annotations": [
+        { "id": 0, "image_id": 0, "category_id": 0, "bbox": [531, 574, 200, 26], "txt": "点击任意区域进入游戏", "ignore": 0, "iscrowd": 0 },
+        { "id": 1, "image_id": 1, "category_id": 1, "bbox": [110, 70, 130, 50], "txt": "登录页公告", "ignore": 0, "iscrowd": 0 },
+        { "id": 2, "image_id": 1, "category_id": 2, "bbox": [1095, 84, 35, 35], "txt": "登录页公告关闭按钮", "ignore": 0, "iscrowd": 0 },
+        { "id": 3, "image_id": 2, "category_id": 3, "bbox": [500, 183, 277, 65], "txt": "获得道具!", "ignore": 0, "iscrowd": 0 },
+        { "id": 4, "image_id": 3, "category_id": 4, "bbox": [1097, 92, 32, 32], "txt": "首页签到页面关闭按钮", "ignore": 0, "iscrowd": 0 },
+        { "id": 5, "image_id": 4, "category_id": 5, "bbox": [1628, 210, 43, 43], "txt": "礼包弹窗关闭按钮", "ignore": 0, "iscrowd": 0 }
+    ],
+    "info": {
+        "year": 2025,
+        "version": "1.0",
+        "description": "Standardized to 1080p",
+        "contributor": "Label Studio",
+        "date_created": "2025-12-17"
+    }
+}
