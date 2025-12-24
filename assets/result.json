@@ -65,7 +65,63 @@
             "height": 1080,
             "id": 10,
             "file_name": "images/dailygift.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 11,
+            "file_name": "images/commission_skip.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 12,
+            "file_name": "images/heartlink_chat.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 13,
+            "file_name": "images/heartlink_invite.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 14,
+            "file_name": "images/start_invite_verify.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 15,
+            "file_name": "images/choose_date_location.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 16,
+            "file_name": "images/dating_interface.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 17,
+            "file_name": "images/dating_givegift_btn.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 18,
+            "file_name": "images/gift_choose.png"
+        },
+        {
+            "width": 1920,
+            "height": 1080,
+            "id": 19,
+            "file_name": "images/tacitimprove.png"
         }
+
+
     ],
     "categories": [
         {
@@ -127,6 +183,70 @@
         {
             "id": 14,
             "name": "dailygift"
+        },
+        {
+            "id": 15,
+            "name": "commission_skip"
+        },
+        {
+            "id": 16,
+            "name": "heartlink_close"
+        },
+        {
+            "id": 17,
+            "name": "heartlink_invite"
+        },
+        {
+            "id": 18,
+            "name": "heartlink_trekker"
+        },
+        {
+            "id": 19,
+            "name": "heartlink_invite_rightbtn"
+        },
+        {
+            "id": 20,
+            "name": "start_invite_verify"
+        },
+        {
+            "id": 21,
+            "name": "confirmbtn"
+        },
+        {
+            "id": 22,
+            "name": "choose_date_location"
+        },
+        {
+            "id": 23,
+            "name": "choose_date_location_btn"
+        },
+        {
+            "id": 24,
+            "name": "dating_interface"
+        },
+        {
+            "id": 25,
+            "name": "dating_interface_nextbtn"
+        },
+        {
+            "id": 26,
+            "name": "dating_givegift_btn"
+        },
+        {
+            "id": 27,
+            "name": "gift_choose"
+        },
+        {
+            "id": 28,
+            "name": "gift_choose_confirm"
+        },
+        {
+            "id": 29,
+            "name": "tacitimprove"
+        },
+        {
+            "id": 30,
+            "name": "gift_bar"
         }
     ],
     "annotations": [
@@ -300,6 +420,170 @@
             "category_id": 14,
             "bbox": [
                 50, 900, 150, 150
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 15,
+            "image_id": 11,
+            "category_id": 15,
+            "bbox": [
+                0, 0, 250, 100
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 16,
+            "image_id": 12,
+            "category_id": 16,
+            "bbox": [
+                1800, 45, 70, 70
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 17,
+            "image_id": 13,
+            "category_id": 17,
+            "bbox": [
+               320, 940 , 280, 80
+
+
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 18,
+            "image_id": 13,
+            "category_id": 18,
+            "bbox": [
+               130 ,260 ,560 ,670
+
+
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 19,
+            "image_id": 13,
+            "category_id": 19,
+            "bbox": [
+               1200,920,280 ,80
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 20,
+            "image_id": 14,
+            "category_id": 20,
+            "bbox": [
+               460, 220, 1000 ,630
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 21,
+            "image_id": 14,
+            "category_id": 21,
+            "bbox": [
+               1000, 700, 350 ,100
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 22,
+            "image_id": 15,
+            "category_id": 22,
+            "bbox": [
+               900, 200,900 ,700
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 23,
+            "image_id": 15,
+            "category_id": 23,
+            "bbox": [
+               1630,350,140,80
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 24,
+            "image_id": 16,
+            "category_id": 24,
+            "bbox": [
+               1500,50,350,100
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 25,
+            "image_id": 16,
+            "category_id": 25,
+            "bbox": [
+               1750 ,50,70,100
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 26,
+            "image_id": 17,
+            "category_id": 26,
+            "bbox": [
+               1140,740,760,80
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 27,
+            "image_id": 18,
+            "category_id": 27,
+            "bbox": [
+               1140, 380,120, 120
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 28,
+            "image_id": 18,
+            "category_id": 28,
+            "bbox": [
+               1520, 920,260, 80
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 29,
+            "image_id": 19,
+            "category_id": 29,
+            "bbox": [
+               1200, 240, 420, 150
+            ],
+            "ignore": 0,
+            "iscrowd": 0
+        },
+        {
+            "id": 30,
+            "image_id": 18,
+            "category_id": 30,
+            "bbox": [
+               1130, 320,720, 550
             ],
             "ignore": 0,
             "iscrowd": 0
